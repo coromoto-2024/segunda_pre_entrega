@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Radio Canada Big", sans-serif;
+}
+
+
+/************************************************************/
+/************************** HEADER **************************/
+/************************************************************/
+
+.header {
+    background-color: burlywood;
+    padding: .5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 6rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: maroon;
+}
+
+/**********************************************************/
+/************************* HERO ***************************/
+/**********************************************************/
+
+.hero {
+    height: 100vh;
+    background-image: url("../img/fondo\ 10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 60%;
+    background-color: sienna;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+/***********************************************************/
+/************************ TARJETAS *************************/
+/***********************************************************/
+
+.tarjetas {
+    padding: 4rem;
+    display: flex;
+}
+
+.tarjeta {
+    flex: 1;
+    background-color: sienna;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+
+.tarjeta-img {
+    width: 20rem;
+}
+
+.tarjeta-info {
+    padding: 2rem;
+}
+  
